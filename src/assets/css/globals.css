@@ -1,0 +1,54 @@
+:root{
+    --bg: rgb(40, 53, 87);
+    --gray: #f4f4f4;
+    --btn-black: #000000;
+}
+
+.bg-principal{
+    background-color: #283557;
+    color: white;
+}
+
+.seleccion{
+    border: solid 0pt;
+    background-color: rgb(40, 53, 87);
+}
+
+.seleccion:hover{
+    background-color: #5068B2;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-color: #7CE2E6;
+}
+
+.espacio-registro{
+    background-color: rgb(255, 255, 255, 0.4);
+    border: solid 0pt;
+    border-radius: 20pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.espacio-dato{
+    border: solid 0pt;
+    border-bottom: 1pt rgb(40, 53, 87) solid;
+    padding: 20pt;
+    font-size: 15pt;
+}
+
+.espacio-dato:hover{
+    background-color: rgb(40, 53, 87, 0.4);
+    color: white;
+}
+
+.espacio-filtros{
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-bottom: 0px;
+}
