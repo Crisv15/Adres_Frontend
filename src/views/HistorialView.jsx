@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import { Registros } from "../components/Registros"
+import { Historial } from "../components/Historial"
 
 export const HistorialView = () => {
-    return (
+    return(
         <Fragment>
-            <Registros></Registros>
+            <Historial/>
         </Fragment>
     )
 }

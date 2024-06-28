@@ -52,3 +52,7 @@ body{
     background-color: rgb(255, 255, 255, 0.4);
     margin-bottom: 0px;
 }
+
+.btn-enviar{
+    border-radius: 100%;
+}
