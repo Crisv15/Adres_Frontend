@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react"
 import { HeaderView } from "@/views/HeaderView"
 import axios from 'axios';
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export const Historial = () => {
 
@@ -59,7 +59,7 @@ export const Historial = () => {
                                                     <th key={key1}>{val.fecha}</th>
                                                     <td>{val.tipoMovimiento}</td>
                                                     <td>{val.modificacion}</td>
-                                                    <td>{val._id}</td>
+                                                    <td>{val.idAdquisicion}</td>
                                                 </tr>
                                             )
                                         })
