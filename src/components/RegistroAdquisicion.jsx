@@ -95,7 +95,7 @@ export const RegistroAdquisicion = () => {
                             showConfirmButton: false,
                             timer: 1500
                         }).then(() => {
-                            navegar('/datos');
+                            navegar('/');
                         });
                         navegar('/')
                     }
